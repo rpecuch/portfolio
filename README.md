@@ -2,7 +2,7 @@
 
 ## Description
 
-The purpose of this project was to build a professional portfoliio that I can use in the future to showcase to potential employers. This will allow hiring managers to view all of my information, skills, and projects in one place.
+The purpose of this project was to build a professional portfolio that I can use in the future to showcase to potential employers. This will allow hiring managers to view all of my information, skills, and projects in one place.
 
 - What did you learn?
 
