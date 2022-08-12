@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 0px;
+}
+
+header {
+    background-color: aqua;
+    position: fixed;
+    display: block;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+    position: relative;
+    bottom: 50px;
+}
+
+nav ul a {
+    text-decoration: none;
+}
