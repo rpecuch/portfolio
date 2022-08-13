@@ -13,17 +13,15 @@ header {
     position: relative;
     display: block;
     width: 100%;
-    border-radius: 0px 0px 20px 20px;
 }
 
-nav ul {
-    list-style-type: none;
-    text-align: right;
-    position: relative;
-    bottom: 50px;
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
 }
 
-nav ul a {
+a {
     text-decoration: none;
 }
 
@@ -38,10 +36,17 @@ h2 {
 .work-section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 .contact-section {
     background-color: beige;
+}
+
+.contact-section ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
 }
 
 .resume-section {
