@@ -5,50 +5,79 @@
 }
 
 body {
-    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
-    background-color: aqua;
-    position: relative;
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
 }
 
 nav {
     display: flex;
-    justify-content: flex-end;
-    gap: 15px;
+    justify-content: space-between;
+    min-width: 300px;
+    margin-right: 2%;
 }
 
 a {
     text-decoration: none;
 }
 
-h2 {
-    border: 5px solid black;
+main {
+    display: flex;
+    margin: 1%;
+    max-width: 1200px;
 }
 
-.about-me-section {
-    background-color: yellow;
+section {
+    padding-right: 5%;
 }
 
-.work-section {
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.projects article {
+    padding: 2%;
+}
+
+.main-project {
+    text-align: center;
+}
+
+.other-projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
-.contact-section {
-    background-color: beige;
+aside {
+    width: 15%;
 }
 
-.contact-section ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
+aside ul {
+    list-style: none;
 }
 
-.resume-section {
-    background-color: pink;
+@media screen and (max-width: 768px) {
+    header,
+    main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-section {
+        flex-direction: column;
+    }
+
+    aside {
+        width: 100%;
+    }
+    
 }

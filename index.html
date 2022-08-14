@@ -10,8 +10,10 @@
 
 <body>
     <header>
-        <h1>Rita Pecuch</h1>
-        <h3>Web Development Student</h3>
+        <div>
+            <h1>Rita Pecuch</h1>
+            <h3>Web Development Student</h3>
+        </div>
         <nav>
             <a href="#about-me">About Me</a>
             <a href="#work">Work</a>
@@ -21,57 +23,70 @@
     </header>
 
     <main>
-        <section class="about-me-section">
+        <section>
             <article>
                 <h2 id="about-me">About Me</h2>
+                <div class="about-section">
+                    <p>
+                        I am a new web development student that just started the full-time bootcamp at Rutgers University! I come from a background of biology and healthcare. I graduated from Oakland University with a B.S. in Biomedical Science in May 2021, and worked in the field for four years. I am interested in creating applications for use in healthcare, STEM, and athletics!
+                    </p>
+                    <img src="https://dummyimage.com/150" alt="placeholder">
+                </div>
+            </article>
+
+            <article class="projects">
+                <h2 id="work">Work</h2>
+                <article class="main-project">
+                    <img src="https://dummyimage.com/200" alt="placeholder">
+                        <h3>Main Project</h3>
+                        <p>
+                            Show description on hover.
+                        </p>
+                </article>
+                <div class="other-projects">
+                    <article>
+                        <img src="https://dummyimage.com/100" alt="placeholder">
+                        <h3>Another Project</h3>
+                        <p>
+                            Show description on hover.
+                        </p>
+                    </article>
+        
+                    <article>
+                        <img src="https://dummyimage.com/100" alt="placeholder">
+                        <h3>Another Project</h3>
+                        <p>
+                            Show description on hover.
+                        </p>
+                    </article>
+        
+                    <article>
+                        <img src="https://dummyimage.com/100" alt="placeholder">
+                        <h3>Another Project</h3>
+                        <p>
+                            Show description on hover.
+                        </p>
+                    </article>
+        
+                    <article>
+                        <img src="https://dummyimage.com/100" alt="placeholder">
+                        <h3>Another Project</h3>
+                        <p>
+                            Show description on hover.
+                        </p>
+                    </article>
+                </div>
+            </article>
+
+            <article>
+                <h2 id="resume">Resume</h2>
                 <p>
-                    Insert info about yourself.
+                    Coming soon!
                 </p>
             </article>
-            <img src="https://dummyimage.com/200" alt="placeholder">
         </section>
 
-        <section>
-            <h2 id="work">Work</h2>
-            <div class="work-section">
-                <article>
-                    <h3>Main Project</h3>
-                    <p>
-                        Show description on hover.
-                    </p>
-                </article>
-    
-                <article>
-                    <h3>Another Project</h3>
-                    <p>
-                        Show description on hover.
-                    </p>
-                </article>
-    
-                <article>
-                    <h3>Another Project</h3>
-                    <p>
-                        Show description on hover.
-                    </p>
-                </article>
-    
-                <article>
-                    <h3>Another Project</h3>
-                    <p>
-                        Show description on hover.
-                    </p>
-                </article>
-    
-                <article>
-                    <h3>Another Project</h3>
-                    <p>
-                        Show description on hover.
-                    </p>
-                </article>
-            </div>
-        </section>
-
-        <section class="contact-section">
+        <aside>
             <h2 id="contact-me">Contact Info</h2>
             <ul>
                 <li>Phone</li>
@@ -79,14 +94,7 @@
                 <li><a href="https://github.com/rpecuch">GitHub</a></li>
                 <li><a href="https://www.linkedin.com/in/rita-pecuch-6ab517156/">LinkedIn</a></li>
             </ul>
-        </section>
-
-        <section class="resume-section">
-            <h2 id="resume">Resume</h2>
-            <p>
-                Coming soon!
-            </p>
-        </section>
+        </aside>
     </main>
     
 </body>
