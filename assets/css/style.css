@@ -76,6 +76,12 @@ aside ul {
         flex-direction: column;
     }
 
+    /* This image does not need to be so big
+
+    .about-section img {
+
+    } */
+
     aside {
         width: 100%;
     }
