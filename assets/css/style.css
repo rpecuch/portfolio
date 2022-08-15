@@ -69,15 +69,15 @@ section {
 .about-section p {
     line-height: 2.5;
     margin-right: 1%;
+    font-size: 110%;
 }
 
 .about-section img {
     width: 200px;
     height: auto;
     transform: rotate(5deg);
-    outline: dashed thin black;
-    outline-offset: 4px;
     margin-left: 2%;
+    box-shadow: 5px 5px 5px gray;
 }
 
 .projects article {
@@ -100,6 +100,7 @@ section {
 .main-project:hover {
     border: 2px solid red;
     border-radius: 5px;
+    box-shadow: 5px 5px 5px red;
 }
 
 .main-project:hover .hidden-dsc {
@@ -113,6 +114,8 @@ section {
 .minor-project:hover {
     border: 2px solid red;
     border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px red;
 }
 
 .other-projects {
@@ -157,6 +160,7 @@ aside li {
 
 .resume p {
     padding: 2%;
+    font-size: 110%;
 }
 
 aside {
