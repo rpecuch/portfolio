@@ -61,7 +61,13 @@ section {
 .about-section {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     max-width: 1200px;
+}
+
+.about-section p {
+    line-height: 2.5;
+    margin-right: 1%;
 }
 
 .about-section img {
@@ -73,8 +79,33 @@ section {
     padding: 2%;
 }
 
+#work {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
 .main-project {
     text-align: center;
+}
+
+.hidden-dsc {
+    display: none;
+}
+
+.main-project:hover {
+    border: 2px solid red;
+}
+
+.main-project:hover .hidden-dsc {
+    display: block;
+}
+
+.minor-project:hover .hidden-dsc {
+    display: block;
+}
+
+.minor-project:hover {
+    border: 2px solid red;
 }
 
 .other-projects {
@@ -88,6 +119,7 @@ aside {
 }
 
 aside ul {
+    margin-top: 5%;
     list-style: none;
 }
 
@@ -98,6 +130,14 @@ aside ul {
 .hover:hover .hidden {
     display: block;
 } */
+
+.resume {
+    margin-top: 2%;
+}
+
+.resume p {
+    padding: 2%;
+}
 
 aside a:hover {
     color: red;
@@ -146,6 +186,11 @@ footer {
 
     aside {
         width: 100%;
+        margin-top: 2%;
+    }
+
+    aside ul {
+        margin-top: 1%;
     }
     
 }
