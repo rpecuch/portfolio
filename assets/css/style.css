@@ -63,6 +63,7 @@ section {
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
+    margin-bottom: 2%;
 }
 
 .about-section p {
@@ -73,6 +74,10 @@ section {
 .about-section img {
     width: 200px;
     height: auto;
+    transform: rotate(5deg);
+    outline: dashed thin black;
+    outline-offset: 4px;
+    margin-left: 2%;
 }
 
 .projects article {
@@ -94,6 +99,7 @@ section {
 
 .main-project:hover {
     border: 2px solid red;
+    border-radius: 5px;
 }
 
 .main-project:hover .hidden-dsc {
@@ -106,6 +112,7 @@ section {
 
 .minor-project:hover {
     border: 2px solid red;
+    border-radius: 5px;
 }
 
 .other-projects {
@@ -123,13 +130,26 @@ aside ul {
     list-style: none;
 }
 
-/* .hidden {
-    display: none;
+aside li {
+    margin: 5%;
 }
 
-.hover:hover .hidden {
-    display: block;
-} */
+#phone:hover,
+#email:hover {
+    text-decoration: underline black;
+}
+
+#phone:hover::after {
+    content: '517-375-7765';
+    padding-left: 5%;
+    font-weight: bolder;
+}
+
+#email:hover::after {
+    content: 'rpecuch@comcast.net';
+    padding-left: 5%;
+    font-weight: bolder;
+}
 
 .resume {
     margin-top: 2%;
@@ -137,6 +157,10 @@ aside ul {
 
 .resume p {
     padding: 2%;
+}
+
+aside {
+    margin-right: 5%;
 }
 
 aside a:hover {
@@ -178,6 +202,7 @@ footer {
 
     .about-section img {
         margin: 0 auto;
+        transform: none;
     }
 
     .resume {
