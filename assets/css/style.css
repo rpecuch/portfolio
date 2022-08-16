@@ -80,13 +80,13 @@ section {
     box-shadow: 5px 5px 5px gray;
 }
 
-/* #skills {
+#skills {
     font-style: oblique;
     text-shadow: 2px 2px 5px gray;
     border: 2px dashed black;
     border-radius: 5px;
     padding: 1%;
-} */
+}
 
 .projects article {
     padding: 2%;
