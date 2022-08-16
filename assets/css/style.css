@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    margin: 0%;
+    padding: 0%;
 }
 
 body {
@@ -80,6 +80,14 @@ section {
     box-shadow: 5px 5px 5px gray;
 }
 
+#skills {
+    font-style: oblique;
+    text-shadow: 2px 2px 5px gray;
+    border: 2px dashed black;
+    border-radius: 5px;
+    padding: 1%;
+}
+
 .projects article {
     padding: 2%;
 }
@@ -124,8 +132,18 @@ section {
     justify-content: space-between;
 }
 
+.resume {
+    margin-top: 2%;
+}
+
+.resume p {
+    padding: 2%;
+    font-size: 110%;
+}
+
 aside {
     width: 15%;
+    margin-right: 5%;
 }
 
 aside ul {
@@ -153,19 +171,6 @@ aside li {
     content: 'rpecuch@comcast.net';
     padding-left: 5%;
     font-weight: bolder;
-}
-
-.resume {
-    margin-top: 2%;
-}
-
-.resume p {
-    padding: 2%;
-    font-size: 110%;
-}
-
-aside {
-    margin-right: 5%;
 }
 
 aside a:hover {
