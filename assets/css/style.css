@@ -3,7 +3,10 @@ footer {
     background-color: #d1d1e0;
 }
 
-#home:hover,
+#home {
+    font-style: oblique;
+}
+
 #about:hover,
 #work-samples:hover,
 #resume:hover,

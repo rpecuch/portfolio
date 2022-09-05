@@ -1,0 +1,233 @@
+
+
+/* * {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: gray;
+    padding: 1%;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    margin-right: 2%;
+}
+
+nav a {
+    font-size: 110%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ nav a:hover {
+    color: white;
+}
+
+nav a:focus {
+    border-color: white;
+}
+
+main {
+    display: flex;
+    padding: 1%;
+    max-width: 1500px;
+    background-color: #e6f2ff;
+}
+
+section {
+    padding-right: 5%;
+}
+
+.border-bottom {
+    border-bottom: 2px solid black;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin-bottom: 2%;
+}
+
+.about-section p {
+    line-height: 2.5;
+    margin-right: 1%;
+    font-size: 110%;
+}
+
+.about-section img {
+    width: 200px;
+    height: auto;
+    transform: rotate(5deg);
+    margin-left: 2%;
+    box-shadow: 5px 5px 5px gray;
+}
+
+#skills {
+    font-style: oblique;
+    text-shadow: 2px 2px 5px gray;
+    border: 2px dashed black;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+.projects article {
+    padding: 2%;
+}
+
+#work {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.main-project {
+    text-align: center;
+}
+
+.hidden-dsc {
+    display: none;
+}
+
+.main-project:hover {
+    border: 2px solid red;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px red;
+}
+
+.main-project:hover .hidden-dsc {
+    display: block;
+}
+
+.minor-project:hover .hidden-dsc {
+    display: block;
+}
+
+.minor-project:hover {
+    border: 2px solid red;
+    border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px red;
+}
+
+.other-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.resume {
+    margin-top: 2%;
+}
+
+.resume p {
+    padding: 2%;
+    font-size: 110%;
+}
+
+aside {
+    width: 15%;
+    margin-right: 5%;
+}
+
+aside ul {
+    margin-top: 5%;
+    list-style: none;
+}
+
+aside li {
+    margin: 5%;
+    font-size: 110%;
+}
+
+#phone:hover,
+#email:hover {
+    text-decoration: underline black;
+}
+
+#phone:hover::after {
+    content: '517-375-7765';
+    padding-left: 5%;
+    font-weight: bolder;
+}
+
+#email:hover::after {
+    content: 'rpecuch@comcast.net';
+    padding-left: 5%;
+    font-weight: bolder;
+}
+
+aside a:hover {
+    color: red;
+    text-decoration: solid red;
+}
+
+aside a:focus {
+    border: 2px solid red;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    padding: 2%;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    header,
+    main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        padding: 2%;
+    }
+
+    section {
+        padding-right: 0px;
+    }
+
+    .about-section {
+        flex-direction: column;
+    }
+
+    .about-section img {
+        margin: 0 auto;
+        transform: none;
+    }
+
+    .resume {
+        border-bottom: 2px solid black;
+    }
+
+    aside {
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    aside ul {
+        margin-top: 1%;
+    }
+    
+} */
