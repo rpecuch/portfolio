@@ -8,20 +8,24 @@ The purpose of this project was to build a professional portfolio that I can use
 
 To access this webpage, visit the following URL: [https://rpecuch.github.io/portfolio/](https://rpecuch.github.io/portfolio/). Users may navigate to specific sections using the links in the header of the page.
 
-![navigation menu](./assets/images/nav-bar.png)
+![navigation menu](./assets/images/readme/homepage.png)
 
-To display my phone number or email, simply hover over the word "Phone" or "Email".
+The "About" section shows a short summary about my background.
 
-![displaying hidden contact information](./assets/images/display-info.png)
+![about section of website](./assets/images/readme/about-me.png)
 
-To be redirected to my GitHub account or LinkedIn account, simply click on the link.
+The "Work Samples" section shows descriptions of some of the projects I have made. Use the arrows to navigate and preview different projects. To view a deployed application, click on the name of the application.
 
-![links to external sites](./assets/images/visit-link.png)
+![work samples section of website](./assets/images/readme/work-samples.png)
 
-To view samples of my work, simply click on the images in the "Work" section.
+The "Resume" section shows a PDF file of my resume.
 
-![outlined work sample](./assets/images/work-section.png)
+![resume section of website](./assets/images/readme/resume.png)
+
+The "Contact" section displays my phone number, email, and links to my GitHub and LinkedIn profiles.
+
+![contact section of website](./assets/images/readme/contact.png)
 
 ## License
 
-Please refere to the license in the repo.
+Please refer to the license in the repo.
