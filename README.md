@@ -1,5 +1,7 @@
 # Professional Portfolio
 
+This is my old portfolio, view my new portfolio [here](https://rpecuch.github.io/react-portfolio/) or view the repo [here](https://github.com/rpecuch/react-portfolio).
+
 ## Description
 
 The purpose of this project was to build a professional portfolio that I can use in the future to showcase to potential employers. This will allow hiring managers to view all of my information, work samples, and contact information in one place. While building this project, I gained experience implementing various CSS selectors, properties, pseudo-classes, and pseudo-elements. I became much more comfortable using the flexbox layout and creating a web design that adapts to various screen sizes. This portfolio will continue to be updated as I learn new skills and deploy more applications.
